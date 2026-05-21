@@ -959,110 +959,19 @@
         <div class="p-form-simple c-form m_form">
           <div class="c-inner c-inner--sm c-inner--one-elem">
             <div class="only-edit"><i class="fa fa-info-circle"></i>フォームから送信された内容はマイページの「フォーム」ボタンから確認できます。</div>
-            <form class="pera1-form" id="customform" method="post" action="https://onitsuka.hp.peraichi.com/posts/complete"><div class="form-group"><label class="col-sm-4 control-label hp">Message</label><div class="col-sm-8 form_inputs hp"><input type="text" class="form-control form_input" name="message"></div></div>
-              <div class="pera1-editable" data-pera1-type="custom_form"><div class="form">
-        <div class="form-group" data-elem-name="formInputCustomText">
-            <label class="col-sm-3 control-label customFormGroup_ttl_required">お名前（姓）</label>
-            <div class="col-sm-8 form_inputs">
-                <input class="form-control form_input" type="text" placeholder="山田" name="userData[お名前（姓）]" required="" data-input-category-name="name_last"><input type="hidden" value="お名前（姓）" name="system[name_last]">
-            </div>
-        </div>
-    
-        <div class="form-group" data-elem-name="formInputCustomText">
-            <label class="col-sm-3 control-label customFormGroup_ttl_required">お名前（名）</label>
-            <div class="col-sm-8 form_inputs">
-                <input class="form-control form_input" type="text" placeholder="太郎" name="userData[お名前（名）]" required="" data-input-category-name="name_first"><input type="hidden" value="お名前（名）" name="system[name_first]">
-            </div>
-        </div>
-    
-        <div class="form-group" data-elem-name="formInputCustomText">
-            <label class="col-sm-3 control-label customFormGroup_ttl_required">フリガナ（セイ）</label>
-            <div class="col-sm-8 form_inputs">
-                <input class="form-control form_input" type="text" placeholder="ヤマダ" name="userData[フリガナ（セイ）]" required="" data-input-category-name="name_katakana_last"><input type="hidden" value="フリガナ（セイ）" name="system[name_katakana_last]">
-            </div>
-        </div>
-    
-        <div class="form-group" data-elem-name="formInputCustomText">
-            <label class="col-sm-3 control-label customFormGroup_ttl_required">フリガナ（メイ）</label>
-            <div class="col-sm-8 form_inputs">
-                <input class="form-control form_input" type="text" placeholder="タロウ" name="userData[フリガナ（メイ）]" required="" data-input-category-name="name_katakana_first"><input type="hidden" value="フリガナ（メイ）" name="system[name_katakana_first]">
-            </div>
-        </div>
-    
-        <div class="form-group" data-elem-name="formInputCustomText">
-            <label class="col-sm-3 control-label customFormGroup_ttl">お電話番号</label>
-            <div class="col-sm-8 form_inputs">
-                <input class="form-control form_input" type="tel" placeholder="080-0000-0000" name="userData[お電話番号]" data-input-category-name="phone_number"><input type="hidden" value="お電話番号" name="system[phone_number]">
-            </div>
-        </div>
-    
-        <div class="form-group" data-elem-name="formInputCustomText">
-            <label class="col-sm-3 control-label customFormGroup_ttl_required">メールアドレス</label>
-            <div class="col-sm-8 form_inputs">
-                <input class="form-control form_input" type="email" placeholder="xxxx@example.com" name="userData[メールアドレス]" required="" data-input-category-name="mail_address"><div style="padding-top: 5px;"><input type="checkbox" name="is_mail_magazine_send" value="true" checked>  送信したメールアドレスでお知らせ配信に登録する</div><input type="hidden" value="メールアドレス" name="system[mail_address]">
-            </div>
-            <input type="hidden" value="メールアドレス" name="system[replyToKey]">
-        </div>
-    
-        <div class="form-group" data-elem-name="formInputCustomText">
-            <label class="col-sm-3 control-label customFormGroup_ttl_required">ご希望のコース</label>
-            <div class="col-sm-8 form_inputs">
-                
-                    <label class="radio-inline">
-                        <input class="form_input" type="radio" value="スタンダードコース" name="userData[ご希望のコース]" required="">
-                        スタンダードコース
-                    </label>
-                
-                    <label class="radio-inline">
-                        <input class="form_input" type="radio" value="ゴールドコース" name="userData[ご希望のコース]" required="">
-                        ゴールドコース
-                    </label>
-                
-                    <label class="radio-inline">
-                        <input class="form_input" type="radio" value="プラチナコース" name="userData[ご希望のコース]" required="">
-                        プラチナコース
-                    </label>
-                
-            </div>
-        </div>
-    
-        <div class="form-group" data-elem-name="formInputCustomText">
-            <label class="col-sm-3 control-label customFormGroup_ttl">お支払い</label>
-            <div class="col-sm-8 form_inputs">
-                
-                    <label class="radio-inline">
-                        <input class="form_input" type="radio" value="一括" name="userData[お支払い]">
-                        一括
-                    </label>
-                
-                    <label class="radio-inline">
-                        <input class="form_input" type="radio" value="分割" name="userData[お支払い]">
-                        分割
-                    </label>
-                
-            </div>
-        </div>
-    
-        <div class="form-group" data-elem-name="formInputCustomText">
-            <label class="col-sm-3 control-label customFormGroup_ttl">お問合せ及び意気込み</label>
-            <div class="col-sm-8 form_inputs">
-                <input class="form-control form_input" type="text" placeholder="熱い意気込みをお聞かせください" name="userData[お問合せ及び意気込み]">
-            </div>
-        </div>
-    </div></div>
-              <div class="u-align-center u-mtmd">
-                <div class="form-group">
-                  <input class="form-control" id="formLandingPageId" type="hidden" value="1437933" name="landing_page_id">
-                  <input id="formSubmit" type="submit" style="display:none">
-                  <div class="c-btn">
-                    <div class="btn-customform-submit pera1-editable">送信</div>
-                  </div>
-                </div>
-              </div>
-              <div class="u-mtsm pera1-removable">
-                <div data-structure="e-text" class="pera1-editable"><span data-custom-sp-fontsize="12px">※上記プライバシーポリシーをお読みの上、同意して送信して下さい。<br>※分割の方には、別途分割手数料が掛かります<br><br><span data-custom-pc-fontsize="16px" data-custom-sp-fontsize="14px">ご応募後は、FacebookやTwitter、Instagram、LINEなどから連絡を頂きますと、より迅速に回答をさせて頂きます</span> <br><br></span><div><span style="color: #0a2733; font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: justify; white-space: pre-wrap; background-color: #eaf5ff;" data-mce-style="color: #0a2733; font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: justify; white-space: pre-wrap; background-color: #eaf5ff;"><br></span></div></div>
-              </div>
-            <input type="hidden" name="token" value="34d71dae34b7a03a2ea6cc8f134555f96572b34531d03e85006bdb0dfa972c2a"><input type="hidden" name="_csrfToken" autocomplete="off" value="txFTpoEZ2S1WyrKZhIH7DkJlxSRmOl9Vvzwaj8q8oOa6G0A7KYzd54lGaeO7UcA8RLcUSAcIHtd9Jdw6L7ys53bj+g3ByyXydFymQQdYOjCGCSq7qYWT1I8rJghN6uXQsX4P04JhogUi0SYpMjEq7g=="></form>
+            <div style="margin:40px auto;max-width:680px;padding:32px 24px;background:linear-gradient(135deg,#00c300 0%,#06b400 100%);border-radius:16px;box-shadow:0 8px 32px rgba(0,195,0,.25);text-align:center;color:#fff;font-family:'Hiragino Sans','Helvetica Neue',sans-serif;">
+  <div style="font-size:14px;letter-spacing:.1em;margin-bottom:8px;opacity:.9;">▼ お問い合わせ・無料相談はこちら ▼</div>
+  <h3 style="font-size:26px;margin:0 0 16px;font-weight:700;line-height:1.4;color:#fff;">公式LINE登録で<br>3大特典プレゼント</h3>
+  <ul style="list-style:none;padding:0;margin:0 0 24px;text-align:left;display:inline-block;font-size:15px;line-height:1.9;">
+    <li style="padding-left:24px;position:relative;">✓ 0→10万円を誰でも作れる方法</li>
+    <li style="padding-left:24px;position:relative;">✓ 儲かる商品リスト2,700</li>
+    <li style="padding-left:24px;position:relative;">✓ 利益が安定するメーカー取引の極意</li>
+  </ul>
+  <div>
+    <a href="https://s-onitsuka.com/Lb0/1t3951" target="_blank" rel="noopener" style="display:inline-block;background:#fff;color:#00b400;font-size:20px;font-weight:700;padding:18px 56px;border-radius:999px;text-decoration:none;box-shadow:0 4px 14px rgba(0,0,0,.2);transition:transform .2s;">LINEで友だち追加する</a>
+  </div>
+  <div style="font-size:12px;margin-top:16px;opacity:.85;">※ お問い合わせもLINEから直接お送りいただけます</div>
+</div>
           </div>
         </div>
       </div>
